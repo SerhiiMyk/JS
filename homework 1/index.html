@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+
+        /*variables*/
+
+        let hello = 'hello';
+        let owu = 'owu';
+        let com = 'com';
+        let ua = 'ua';
+        let num1 = 1;
+        let num10 = 10;
+        let num_999 = -999;
+        let PI = 3.14;
+        let numFl = 2.7;
+        let num16 = 16;
+        let bulTrue = true;
+        let bulFalse = false;
+
+
+        /*console.log( )*/
+
+        console.log(hello);
+        console.log(owu);
+        console.log(com);
+        console.log(ua);
+        console.log(num1);
+        console.log(num10);
+        console.log(num_999);
+        console.log(PI);
+        console.log(num16);
+        console.log(numFl);
+        console.log(bulTrue);
+        console.log(bulFalse);
+
+
+        /*document.write('');*/
+
+        document.write('<p>' + hello + '</p>');
+        document.write('<p>' + owu + '</p>');
+        document.write('<p>' + com + '</p>');
+        document.write('<p>' + ua + '</p>');
+        document.write('<p>' + num1 + '</p>');
+        document.write('<p>' + num10 + '</p>');
+        document.write('<p>' + num_999 + '</p>');
+        document.write('<p>' + PI + '</p>');
+        document.write('<p>' + num16 + '</p>');
+        document.write('<p>' + numFl + '</p>');
+        document.write('<p>' + bulTrue + '</p>');
+        document.write('<p>' + bulFalse + '</p>');
+
+
+        /*alert( )*/
+
+        // alert(hello);
+        // alert(owu);
+        // alert(com);
+        // alert(ua);
+        // alert(num1);
+        // alert(num10);
+        // alert(num_999);
+        // alert(PI);
+        // alert(numFl);
+        // alert(bulTrue);
+        // alert(bulFalse);
+
+        // change
+
+        hello = 'hello1';
+        owu = 'owu1';
+        com = 'com1';
+        ua = 'ua1';
+        num1 = 11;
+        num10 = 101;
+        num_999 = 999;
+        PI = 3.15;
+        numFl = 2.8;
+        num16 = 17;
+        bulTrue = false;
+        bulFalse = true;
+
+        console.log(hello);
+        console.log(owu);
+        console.log(com);
+        console.log(ua);
+        console.log(num1);
+        console.log(num10);
+        console.log(num_999);
+        console.log(PI);
+        console.log(num16);
+        console.log(numFl);
+        console.log(bulTrue);
+        console.log(bulFalse);
+
+        document.write(`<p> ${hello} </p>`);
+        document.write(`<p> ${owu} </p>`);
+        document.write(`<p> ${com} </p>`);
+        document.write(`<p> ${ua} </p>`);
+        document.write(`<p> ${num1} </p>`);
+        document.write(`<p> ${num10} </p>`);
+        document.write(`<p> ${num_999} </p>`);
+        document.write(`<p> ${PI} </p>`);
+        document.write(`<p> ${num16} </p>`);
+        document.write(`<p> ${numFl} </p>`);
+        document.write(`<p> ${bulTrue} </p>`);
+        document.write(`<p> ${bulFalse} </p>`);
+
+        // alert(hello);
+        // alert(owu);
+        // alert(com);
+        // alert(ua);
+        // alert(num1);
+        // alert(num10);
+        // alert(num_999);
+        // alert(PI);
+        // alert(numFl);
+        // alert(bulTrue);
+        // alert(bulFalse);
+
+        let firstName = 'Serhii ';
+        let lastName = 'Mykolaichuk ';
+        let middleName = 'Yuriyovych ';
+
+        let person = lastName + firstName + middleName;
+
+        document.write(`<p> ${person} </p>`);
+
+        firstName = prompt('first name');
+        middleName = prompt('middle name');
+        let age = prompt('age');
+
+        document.write(`<p> Вітаю ${firstName} ${middleName} .Тобі ${age} років  </p>`);
+
+        /*typeof*/
+
+        let a = 100;
+        let b = '100';
+        let c = true
+
+        console.log(typeof a);
+        console.log(typeof b);
+        console.log(typeof c);
+
+        /*definition*/
+
+        let def1 = 5 < 6;
+        let def2 = 5 > 6;
+        let def3 = 5 >= 6;
+        let def4 = 5 === 6;
+        let def5 = 10 >= 10;
+        let def6 = 10 === 10;
+        let def7 = 10 !== 10;
+        let def8 = 10 > 10;
+        let def9 = 10 < 10;
+        let def10 = 123 < '123';
+        let def11 = 123 == '123';
+
+        console.log (def1);
+        console.log (def2);
+        console.log (def3);
+        console.log (def4);
+        console.log (def5);
+        console.log (def6);
+        console.log (def7);
+        console.log (def8);
+        console.log (def9);
+        console.log (def10);
+        console.log (def11);
+
+        // aditional
+
+        console.log(132 > 100 && 45 < 12 );
+        console.log(34 > 33 && 23 < 90 );
+        console.log(99 > 100 && 45 > 12 );
+        console.log(132 > 100 || 45 < 12 );
+        console.log(111 > 11 || 45 < 111 );
+        console.log((111 > 11 || 45 < 111) && (132 > 100 || 45 < 12) );
+        console.log((111 > 11 || 45 < 56) || (132 > 100 || 45 < 12) );
+        console.log((132 > 100 && 45 < 12 ) && (132 > 100 || 45 < 12 ) );
+        console.log((111 > 11 || 45 < 111) || (99 > 100 && 45 > 12 ));
+        console.log(!!'-1');
+        console.log(!!-1);
+        console.log(!!'0');
+        console.log(!!'null');
+        console.log(!!'undefined');
+        console.log(!!(3/'owu'));
+        console.log((111 > 11 || 45 < 111) ||  !!'0');
+        console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 ));
+    </script>
+</body>
+</html>
