@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-card {
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    border: solid black 1px;
+}
+.post-card h3{
+ background:cornflowerblue;
+}
+.post-card p{
+    text-align: justify;
+    margin-top: 20px;
+}

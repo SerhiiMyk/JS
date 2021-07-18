@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.users-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-block {
+    width: 50%;
+    text-align: center;
+    border: black solid 1px;
+    background: silver;
+}
+.user-block h2{
+    background: cornflowerblue;
+}
+.address-block{
+    color: red;
+}
