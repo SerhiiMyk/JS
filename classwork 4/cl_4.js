@@ -162,20 +162,17 @@
 //         this.ege = ege;
 //         this.shoes = shoes;
 //     }
-// }
-//
-// const alfred = new Prince('Alfred', 25, 35)
-//
-// let choise = function () {
-//     for (let i = 0; i < divchata.length; i++) {
-//         const vona = divchata[i];
-//         if (alfred.shoes === vona.footSize) {
-//             console.log(`my girl ${vona.name}`);
+//     choise(){
+//         for (const divchuna of divchata) {
+//             if (alfred.shoes===divchuna.footSize)
+//                 console.log(`my girl ${divchuna.name}`);
 //         }
 //     }
 // }
-// choise();
 //
+// const alfred = new Prince('Alfred', 25, 35)
+// alfred.choise()
+
 // let findCinderella = divchata.find(function (item) {
 //     if (alfred.shoes === item.footSize) {
 //         console.log(`my girl ${item.name}`)

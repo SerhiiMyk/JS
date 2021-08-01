@@ -56,9 +56,9 @@
         //           '5' - 3,
         //           75 + 'кг'
 
-        /*        let a6=2;
+        /*      let a6=2;
                 let a7=3;
-                let a8=53;
+                let a8='53';
                 let a9=2;
                 let a10='75кг';*/
 
@@ -77,7 +77,7 @@
 
         // let heightC=10;
         // let dC=4;
-        // let v= heightC*3.14*dC;
+        // let v= heightC*3.14*(dC/2)**2;
         // console.log(v);
 
         //       6. У прямоугольного треугольника две стороны n (со значением 3) и m (со значением 4).
@@ -100,7 +100,7 @@
         // let str1='Кто';
         // let str2='Ти';
         // let str3='Такой';
-        // let concatination = ('str1 '+'str2 '+'str3 ');
+        // let concatination = str1 +str2 +str3;
         // document.write(concatination);
 
 
@@ -144,22 +144,22 @@
         //       1. Три різних числа вводяться через prompt().
         //           За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
 
-        /*        let n1 = prompt('введіть число №1');
-                let n2 = prompt('введіть число №2');
-                let n3 = prompt('введіть число №3');
-                let max;
-
-                if (n1 > n2) {
-                    max = n1
-                }
-                    else {
-                        max = n2
-                    }
-
-                if (n3 > max) {
-                    max = n3
-                }
-                document.write(max);*/
+        // let n1 = prompt('введіть число №1');
+        // let n2 = prompt('введіть число №2');
+        // let n3 = prompt('введіть число №3');
+        // let max = 0;
+        //
+        // if (n1 > max) {
+        //     max = n1
+        // }
+        //
+        // if (n2 > max) {
+        //     max = n2
+        // }
+        // if (n3 > max) {
+        //     max = n3
+        // }
+        // document.write(max);
 
 
         //       2.
@@ -192,35 +192,35 @@
         //           Если светофор красный - и машины есть вывести "стой и жди".
         //           Если светофор в аварийном режиме вывести "делай что хочешь"!
 
-        let color = prompt('ведіть колір світлофора (червоний/жовтий/зелений/аватійний режим)');
-        let isRoadClear = confirm('якщо машини є на дорозу натисніть - "ок", якщо нема - "скасувати"');
-
-        switch (color) {
-            case 'зелений':
-                if (isRoadClear === false) {
-                    document.write('йди');
-                } else {
-                    document.write('підожди нехай порушувачі проїдуть');
-                }
-                break;
-            case 'жовтий':
-                if (isRoadClear === false) {
-                    document.write('все одно чекай');
-                } else {
-                    document.write('жди');
-                }
-                break;
-            case 'червоний':
-                if (isRoadClear === false) {
-                    document.write('стій все одно');
-                } else {
-                    document.write('стій і чекай');
-                }
-                break;
-            case 'аварійний режим':
-                document.write('роби що хочеш');
-                break;
-        }
+        // let color = prompt('ведіть колір світлофора (червоний/жовтий/зелений/аватійний режим)');
+        // let isRoadClear = confirm('якщо машини є на дорозу натисніть - "ок", якщо нема - "скасувати"');
+        //
+        // switch (color) {
+        //     case 'зелений':
+        //         if (isRoadClear === false) {
+        //             document.write('йди');
+        //         } else {
+        //             document.write('підожди нехай порушувачі проїдуть');
+        //         }
+        //         break;
+        //     case 'жовтий':
+        //         if (isRoadClear === false) {
+        //             document.write('все одно чекай');
+        //         } else {
+        //             document.write('жди');
+        //         }
+        //         break;
+        //     case 'червоний':
+        //         if (isRoadClear === false) {
+        //             document.write('стій все одно');
+        //         } else {
+        //             document.write('стій і чекай');
+        //         }
+        //         break;
+        //     case 'аварійний режим':
+        //         document.write('роби що хочеш');
+        //         break;
+        // }
     </script>
 </body>
 </html>

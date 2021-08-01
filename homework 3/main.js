@@ -51,15 +51,17 @@
 
 // - створити функцію яка  створює блок з текстом. Текст задати через аргумент
 
-// function createText(text){`
-//    <div>
-//       ${text}
-//    </div>`
-//    console.log(text);
-// }
+//  function createText(text){
+//      document.write(`
+//          <div>
+//            ${text}
+//         </div>
+//      `)
+//  }
+//
 // createText('hello');
 
-// - створити функцію яка  створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
+// - створити функцію яка  створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий-->
 
 // function funcUl(li) {
 // document.write(`
@@ -88,15 +90,17 @@
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
-function elArray(){
-    document.write(`<ul>`);
-    for (let i =0; i<arguments.length; i++){
-         let array = arguments[i];
-        document.write(`<li>${array}</li>`);
-    }
-    document.write(`<ul>`);
-}
-elArray(11,'text',false);
+// let arr = [11, 'txt', false];
+//
+// function elArray(arr){
+//     document.write(`<ul>`);
+//     for (let i =0; i<arr.length; i++){
+//          let arrItem = arr[i];
+//         document.write(`<li>${arrItem}</li>`);
+//     }
+//     document.write(`<ul>`);
+// }
+// elArray(arr);
 
 
 

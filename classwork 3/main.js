@@ -123,14 +123,16 @@
 
 // let user = [{name: 'Dima', age: 13}, {model: 'Camry'},{city:'Lviv'}]
 //
+// let userKeys=[]
 // function getKeys(){
 //     for (const userElement of user) {
 //         for(let key in userElement){
-//             console.log(key);
+//             userKeys.push(key)
 //         }
 //     }
 // }
 // getKeys(user);
+// console.log(userKeys);
 
 
 //     - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
@@ -139,11 +141,13 @@
 
 // let user = [{name: 'Dima', age: 13}, {model: 'Camry'},{city:'Lviv'}]
 //
+// let userValue = []
 // function getValue(){
 //     for (const userElement of user) {
 //         for(let key in userElement){
-//             console.log(userElement[key]);
+//             userValue.push(userElement[key]);
 //         }
 //     }
 // }
 // getValue(user);
+// console.log(userValue);
