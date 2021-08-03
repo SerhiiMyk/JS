@@ -20,120 +20,173 @@ let goBad = '12.go to the bad';         //100
 
 //promise
 
-// let promiseSynch = new Promise((resolve) => {
-//     setTimeout(() => {
-//         resolve(wakeUP)
-//     }, 200)
-//     setTimeout(() => {
-//         resolve(brashTeeth)
-//     }, 100)
-//     setTimeout(() => {
-//         resolve(exercise)
-//     }, 400)
-//     setTimeout(() => {
-//         resolve(ran)
-//     }, 200)
-//     setTimeout(() => {
-//         resolve(meditation)
-//     }, 300)
-//     setTimeout(() => {
-//         resolve(reading)
-//     }, 500)
-//     setTimeout(() => {
-//         resolve(breakfast)
-//     }, 500)
-//     setTimeout(() => {
-//         resolve(walking)
-//     }, 100)
-//     setTimeout(() => {
-//         resolve(working)
-//     }, 2000)
-//     setTimeout(() => {
-//         resolve(dinner)
-//     }, 500)
-//     setTimeout(() => {
-//         resolve(studding)
-//     }, 1000)
-//     setTimeout(() => {
-//         resolve(goBad)
-//     }, 100)
+function promiseSynch() {
+    return new Promise((resolve) => {
+        console.log('My routine:');
+        resolve()
+    });
+}
+
+function action1() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(wakeUP)
+            resolve(wakeUP)
+        }, 200)
+    });
+}
+
+function action2() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(brashTeeth)
+            resolve(brashTeeth)
+        }, 100)
+    });
+}
+
+function action3() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(exercise)
+            resolve()
+        }, 400)
+    });
+}
+
+function action4() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(ran)
+            resolve()
+        }, 200)
+    });
+}
+
+function action5() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(meditation)
+            resolve()
+        }, 300)
+    });
+}
+
+function action6() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(reading)
+            resolve()
+        }, 500)
+    });
+}
+
+function action7() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(breakfast)
+            resolve()
+        }, 500)
+    });
+}
+
+function action8() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(walking)
+            resolve()
+        }, 100)
+    });
+}
+
+function action9() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(working)
+            resolve()
+        }, 2000)
+    });
+}
+
+function action10() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(dinner)
+            resolve()
+        }, 500)
+    });
+}
+
+function action11() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(studding)
+            resolve()
+        }, 1000)
+    });
+}
+
+function action12() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            console.log(goBad)
+            resolve()
+        }, 100)
+    });
+}
+
+// promiseSynch()
+//     .then(()=>{
+//         return action1();
+//     })
+//     .then(()=>{
+//         return action3()
+//     })
+//     .then(()=>{
+//         return action4()
+//     })
+//     .then(()=>{
+//         return action5()
+//     })
+//     .then(()=>{
+//         return action6()
+//     })
+//     .then(()=>{
+//         return action7()
+//     })
+//     .then(()=>{
+//         return action8()
+//     })
+//     .then(()=>{
+//         return action9()
+//     })
+//     .then(()=>{
+//         return action10()
+//     })
+//     .then(()=>{
+//         return action11()
+//     })
+//     .then(()=>{
+//         return action12()
+//     })
 //
-// })
-//
-//
-// promiseSynch
-//     .then(() => {
-//         console.log(wakeUP);
-//     })
-//     .then(() => {
-//         console.log(brashTeeth);
-//     })
-//     .then(() => {
-//         console.log(exercise);
-//     })
-//     .then(() => {
-//         console.log(ran);
-//     })
-//     .then(() => {
-//         console.log(meditation);
-//     })
-//     .then(() => {
-//         console.log(reading);
-//     })
-//     .then(() => {
-//         console.log(breakfast);
-//     })
-//     .then(() => {
-//         console.log(walking);
-//     })
-//     .then(() => {
-//         console.log(working);
-//     })
-//     .then(() => {
-//         console.log(dinner);
-//     })
-//     .then(() => {
-//         console.log(studding);
-//     })
-//     .then(() => {
-//         console.log(goBad);
-//     })
+
 
 //async/await
 
-// function returnTimeOutPromise(value, time) {
-//     return new Promise((resolve) => {
-//         setTimeout(() => {
-//             resolve(value)
-//         }, time)
-//     });
-// }
-//
-// async function asyncAwait() {
-//     let action1 = await returnTimeOutPromise(wakeUP, 200)
-//     console.log(action1)
-//     let action2 = await returnTimeOutPromise(brashTeeth, 100)
-//     console.log(action2)
-//     let action3 = await returnTimeOutPromise(exercise, 400)
-//     console.log(action3)
-//     let action4 = await returnTimeOutPromise(ran, 200)
-//     console.log(action4)
-//     let action5 = await returnTimeOutPromise(meditation, 300)
-//     console.log(action5)
-//     let action6 = await returnTimeOutPromise(reading, 500)
-//     console.log(action6)
-//     let action7 = await returnTimeOutPromise(breakfast, 500)
-//     console.log(action7)
-//     let action8 = await returnTimeOutPromise(walking, 100)
-//     console.log(action8)
-//     let action9 = await returnTimeOutPromise(working, 2000)
-//     console.log(action9)
-//     let action10 = await returnTimeOutPromise(dinner, 100)
-//     console.log(action10)
-//     let action11 = await returnTimeOutPromise(studding, 1000)
-//     console.log(action11)
-//     let action12 = await returnTimeOutPromise(goBad, 100)
-//     console.log(action12)
-// }
-//
-// asyncAwait()
+async function asyncAwait() {
+    let ac1 = await action1();
+    let ac2 = await action2();
+    let ac3 = await action3();
+    let ac4 = await action4();
+    let ac5 = await action5();
+    let ac6 = await action6();
+    let ac7 = await action7();
+    let ac8 = await action8();
+    let ac9 = await action9();
+    let ac10 = await action10();
+    let ac11 = await action11();
+    let ac12 = await action12();
+}
+asyncAwait();
+
